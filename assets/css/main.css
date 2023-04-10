@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -995,6 +996,11 @@ input, select, textarea {
 		}
 
 		.image img {
+			display: block;
+			width: 100%;
+		}
+
+		.image video {
 			display: block;
 			width: 100%;
 		}
@@ -2228,14 +2234,14 @@ input, select, textarea {
 		}
 
 			.main.style1 h1 {
-				font-family: Brush Script MT, Brush Script Std, cursive;
-				font-size: 4em;
+				font-family: "Lora", serif;
+				font-size: 2em;
 				line-height: 1em;
 			}
 
 			.main.style1 h2 {
 				font-family: Comic Sans MS, Comic Sans, cursive;
-				font-size: 2em;
+				font-size: 1.5em;
 				line-height: 1.5em;
 			}
 
@@ -2467,6 +2473,30 @@ input, select, textarea {
 	}
 
 	#valentine {
+		background: url("images/overlay.png"), url("../../images/hearts.gif");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+	}
+	
+	#brew {
+		background: url("images/overlay.png"), url("../../images/hearts.gif");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+	}
+
+	#bruxie {
+		background: url("images/overlay.png"), url("../../images/hearts.gif");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+	}
+
+	#lodhiBrew {
 		background: url("images/overlay.png"), url("../../images/hearts.gif");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
